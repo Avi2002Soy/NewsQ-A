@@ -1,21 +1,20 @@
 
-# News Based Q&A System
+# News-Based Chatbot Q&A System
 
-The objective of this system is to provide a more accessible and engaging way to interact with news content, especially for those who may find reading articles cumbersome or time-consuming.
-
-
+This project builds a powerful news-based Q&A chatbot designed to provide users with fast, accurate responses to questions based on recent news articles. Leveraging the capabilities of large language models like GPT-3, alongside document-based question answering (QA), the chatbot allows users to interact with real-time and historical news data.
 
 ## Libraries
-- HuggingFace
-- Newspaper
-- Pandas (for reading csv files)
-- Langchain
-- llama-cpp-python
-- TQDM
-- sentence transformers
-- chromadb(to store Embeddings into Database)
+- HuggingFace: For working with transformer models like GPT-3.
+- Newspaper and Beautiful Soup: Extracts and processes news articles from the web.
+- Pandas: For reading and manipulating CSV files.
+- Langchain: Manages language models and integrates them with vector-based retrieval systems.
+- llama-cpp-python: Lightweight model inference using the LLaMA architecture.
+- TQDM: For progress tracking in data processing tasks.
+- Sentence Transformers: Embeds textual data for efficient similarity search.
+- Chromadb: Stores and manages embeddings for real-time similarity search.
 
 ## Objectives
-- Understand the process of building a chatbot using ChatGPT and document-based question answering.
-- Gain knowledge about the importance of enhancing client service and engagement through chatbot technology.
-- Explore various techniques for building chatbots, including fine-tuning GPT-3, direct prompt-engineering, and integrating vector-index with GPT-3 API.
+- Understand the process of building a chatbot using ChatGPT and document-based QA.
+- Explore techniques like fine-tuning GPT-3, direct prompt-engineering, and integrating vector-indexing for efficient knowledge retrieval.
+- Enhance client service and engagement with state-of-the-art chatbot technology.
+- Learn how to handle large news datasets and efficiently store embeddings in a database for rapid querying.
